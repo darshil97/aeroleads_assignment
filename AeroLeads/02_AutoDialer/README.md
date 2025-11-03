@@ -83,15 +83,6 @@ Open your browser to `http://localhost:5000`
 - **Clear Logs**: Remove all call history with confirmation dialog
 - Real-time status updates show: initiated → ringing → answered → completed
 
-### Standalone CLI
-
-```bash
-# Make a call
-python cli.py --phone "+1234567890" --reason "Follow up on invoice"
-
-# Clear all logs
-python cli.py --clear-logs
-```
 
 ## CSV Format for Bulk Calls
 
@@ -127,29 +118,3 @@ All call data is stored in `data/call_logs.csv` with the following fields:
 - call_sid (Twilio call identifier)
 - status
 - duration
-- recording_url
-
-## Testing
-
-For testing purposes:
-- Calls automatically disconnect between 30-60 seconds
-- Use test phone numbers that you can monitor
-- Check the logs tab to see call status
-
-## Security Notes
-
-- Keep your `.env` file secure and never commit API keys to version control
-- Use Twilio test credentials for development
-- Monitor your Twilio usage to avoid unexpected charges
-
-## Troubleshooting
-
-### Common Issues
-
-1. **API Key Errors**: Ensure all keys are correctly set in `.env`
-2. **Twilio Connection Issues**: Check your Twilio credentials and phone number
-3. **Gemini API Errors**: Verify your Google API key and internet connection
-
-### Logs Location
-- Call logs: `data/call_logs.csv`
-- Recordings: `recordings/` directory
