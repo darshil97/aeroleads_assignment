@@ -1,0 +1,7 @@
+timestamp,phone_number,reason,call_sid,status,duration,recording_url
+2025-11-03 18:16:52,917977100000,payment reminder,CAeadc4bbc384990799ecf45b988a28283,initiated,0,recordings/CAeadc4bbc384990799ecf45b988a28283.mp3
+2025-11-03 18:19:18,917977100000,credit card payment due,CAce30c776c7fa7fdc16d9a6ba640bcfcd,initiated,0,recordings/CAce30c776c7fa7fdc16d9a6ba640bcfcd.mp3
+2025-11-03 18:30:31,917977100000,credit card due,CAd1763ba646f52b98173a5d4090e5fa02,initiated,0,
+2025-11-03 18:38:06,917977100000,RSVP Birthday party. john. On 10th November 7 PM,CA87e9854442fc894e60e3d063f9a0a0a6,initiated,0,
+2025-11-03 18:41:32,918866000000,payment reminder,,Call failed,0,
+2025-11-03 18:58:25,+918866000000,credit card due,N/A,Call failed,0,N/A
